@@ -85,7 +85,7 @@ void setup()
 
   Serial.begin(115200);
   //Serial.setDebugOutput(true);
-  while(!Serial);
+  //while(!Serial);
   Serial.println("MJPEG_2task_Audio_1task");
 
 #ifdef GFX_EXTRA_PRE_INIT
